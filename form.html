@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="/submit.php">
+        <label for="user_name">UserName:</label>
+        <input type="text" placeholder="email" id="user_name">
+        <br>
+        <label for="Password">Password:</label>
+        <input type="password" placeholder="Enter your password" id="Password">
+        <br>
+        <label for="File">File:</label>
+        <input type="file" id="File">
+        <br>
+        <label for="Submit"></label>
+        <input type="submit" id="submit">
+        <br>
+        <span style="font-size: 30px;">Choose Gender,and it is radio</span> <br>
+        <label for="Male">Male:</label>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <br>
+        <label for="Female">Female:</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <br>
+        <label for="Others">Others:</label>
+        <input type="radio" id="Others" name="gender" value="Others">
+        <br>
+        <span style="font-size:30px">Checkbox</span>
+        <br>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruit" value="Apple">
+        <br>
+        <label for="banana">Banana</label>
+        <input type="checkbox" id="banana" name="fruit" value="Banana">
+        <br>
+        <label for="Orange">Orange</label>
+        <input type="checkbox" id="Orange" name="fruit" value="Orange">
+        <br>
+        <label for="Pineapple">Pineapple</label>
+        <input type="checkbox" id="Pineapple" name="fruit" value="Pineapple">
+        <br>
+
+        <span style="font-size:30px">Select or Dropdown</span> <br>
+        <label for="City">Choose your city:</label>
+        <select name="City" id="City">
+            <option value="Kathmandu">Kathmandu</option>
+            <option value="Kathmandu">Lalitpur</option>
+            <option value="Kathmandu">Bhaktapur</option>
+            <option value="Kathmandu">Biratnagar</option>
+            <option value="Kathmandu">Sindupalchowk</option>
+            <option value="Kathmandu">Dhading</option>
+            <option value="Kathmandu">Nuwakot</option>
+        </select>
+        <br>
+        <textarea name="story" id="story" rows="10" col="10">Default Text Here!</textarea>
+
+
+        <br> <br> <br> <br> <br>
+        date: <input type="date">
+        <br>
+        date-time-local : <input type="datetime-local">
+        <br>
+        range : <input type="range">
+        <br>
+        number: <input type="number">
+        <br>
+        submit: <input type="submit">
+        <br>
+        radio: <input type="radio">
+        <br>
+        checkbox: <input type="checkbox">
+    </form>
+    <br> <br> <br>
+    <iframe src="https://www.wikipedia.org/" frameborder="0" height="500px;"></iframe>
+</body>
+
+</html>
